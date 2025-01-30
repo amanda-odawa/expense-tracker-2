@@ -1,4 +1,4 @@
-//FilterPanel.js
+// src/components/FilterPanel.js
 import { useState } from "react";
 import "../Styles/FilterPanel.css";
 

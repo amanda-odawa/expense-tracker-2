@@ -1,4 +1,4 @@
-//ExpenseList.js
+// src/components/ExpenseList.js
 import { useState, useEffect } from "react";
 import FilterPanel from "./FilterPanel";
 import "../Styles/ExpenseList.css";
@@ -24,11 +24,11 @@ const ExpenseList = ({ expenses = [], setExpenses }) => {
       filtered = filtered.filter((exp) => exp.category === filters.category);
     }
     if (filters.startDate) {
-      filtered = filtered.filter((exp) => new Date(exp.date) >= new Date(filters.startDate));
+      filtered = filtered.filter((exp) => new Date(exp.date).getTime() >= new Date(filters.startDate).getTime());
     }
     if (filters.endDate) {
-      filtered = filtered.filter((exp) => new Date(exp.date) <= new Date(filters.endDate));
-    }
+      filtered = filtered.filter((exp) => new Date(exp.date).getTime() <= new Date(filters.endDate).getTime());
+    }    
   
     setFilteredExpenses(filtered);
   };  

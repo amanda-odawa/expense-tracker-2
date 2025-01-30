@@ -1,0 +1,16 @@
+/* src/Styles/FilterPanel.css */
+.filter-panel {
+    background-color: #E3D0BE;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .filter-panel select,
+  .filter-panel input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #AD925B;
+    border-radius: 4px;
+  }
+  

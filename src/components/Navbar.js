@@ -1,4 +1,4 @@
-//Navbar.js
+// src/components/Navbar.js
 import { Link } from "react-router-dom";
 import "../Styles/Navbar.css";
 

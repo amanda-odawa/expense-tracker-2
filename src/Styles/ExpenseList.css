@@ -1,0 +1,29 @@
+/* src/Styles/ExpenseList.css */
+.expense-list {
+    background-color: #F8F1EB;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .expense-item {
+    background-color: #E0C275;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .expense-item button {
+    margin-left: 10px;
+    background-color: #D1495B;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .expense-item button:hover {
+    background-color: #9B2915;
+  }
+  

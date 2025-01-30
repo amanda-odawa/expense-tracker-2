@@ -1,4 +1,4 @@
-// ExpenseForm.js
+// src/components/ExpenseForm.js
 import { useState } from "react";
 import "../Styles/ExpenseForm.css";
 
@@ -45,7 +45,7 @@ const ExpenseForm = ({ setExpenses }) => {
         type="number"
         placeholder="Amount"
         value={amount}
-        onChange={(e) => setAmount(e.target.value)}
+        onChange={(e) => setAmount(Number(e.target.value))}
         className="w-full p-2 border rounded mb-2"
         required
       />

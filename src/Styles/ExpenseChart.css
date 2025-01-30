@@ -1,0 +1,13 @@
+/* src/Styles/ExpenseChart.css */
+.expense-chart-container {
+    background-color: #F8F1EB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .expense-chart-container h2 {
+    color: #8F794B;
+  }
+  

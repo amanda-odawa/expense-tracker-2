@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ExpenseForm from "./components/ExpenseForm";
 import ExpenseList from "./components/ExpenseList";
 import ExpenseChart from "./components/ExpenseChart";
+import './App.css';
 
 const App = () => {
   const [expenses, setExpenses] = useState([]); // Expense state
@@ -15,8 +15,8 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => setExpenses(data))
       .catch((err) => console.error("Error fetching expenses:", err));
-  }, []);
-
+  }, [setExpenses]);
+  
   return (
     <div>
       <Navbar />
