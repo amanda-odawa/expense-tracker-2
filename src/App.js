@@ -1,25 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ExpenseForm from "./components/ExpenseForm";
+import ExpenseList from "./components/ExpenseList";
+import ExpenseChart from "./components/ExpenseChart";
 
-function App() {
+const App = () => {
+  const [expenses, setExpenses] = useState([]); // Expense state
+
+  useEffect(() => {
+    fetch("http://localhost:3001/expenses")
+      .then((res) => res.json())
+      .then((data) => setExpenses(data))
+      .catch((err) => console.error("Error fetching expenses:", err));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/expenses"
+          element={<ExpenseList expenses={expenses} setExpenses={setExpenses} />}
+        />
+        <Route path="/add-expense" element={<ExpenseForm setExpenses={setExpenses} />} />
+        <Route path="/charts" element={<ExpenseChart expenses={expenses} />} />
+        <Route path="/" element={<ExpenseList expenses={expenses} setExpenses={setExpenses} />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;

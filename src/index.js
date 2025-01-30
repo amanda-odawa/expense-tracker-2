@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import "./Styles/ExpenseChart.css";
+import "./Styles/ExpenseForm.css";
+import "./Styles/ExpenseList.css";
+import "./Styles/FilterPanel.css";
+import "./Styles/Navbar.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
