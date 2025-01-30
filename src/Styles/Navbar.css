@@ -1,24 +1,28 @@
-/* src/Styles/Navbar.css */
+/* Navbar.css */
 .navbar {
-    background-color: #1DA91A;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar .title {
-    color: white;
-    font-size: 24px;
-  }
-  
-  .nav-items a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  
-  .nav-items a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  color: var(--gold);
+}
+
+.navbar .toggle-btn {
+  background: none;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.navbar .toggle-btn:hover {
+  background: var(--gold);
+  color: var(--black);
+}
