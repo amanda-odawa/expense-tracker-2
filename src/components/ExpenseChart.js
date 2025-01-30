@@ -1,4 +1,3 @@
-// src/components/ExpenseChart.js
 import { Pie } from 'react-chartjs-2';
 import { useState, useEffect } from 'react';
 import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';

@@ -1,4 +1,3 @@
-// src/components/FilterPanel.js
 import { useState } from "react";
 import "../Styles/FilterPanel.css";
 
@@ -13,7 +12,7 @@ function FilterPanel({ onFilter }) {
     };
   
     return (
-      <div>
+      <div className="filter-panel">
         {/* Category filter */}
         <select name="category" value={filters.category} onChange={handleFilterChange}>
           <option value="">All Categories</option>

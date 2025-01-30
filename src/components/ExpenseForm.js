@@ -1,4 +1,3 @@
-// src/components/ExpenseForm.js
 import { useState } from "react";
 import "../Styles/ExpenseForm.css";
 
@@ -49,6 +48,13 @@ const ExpenseForm = ({ setExpenses }) => {
         className="input-field"
         required
       />
+       <input
+        type="date"
+        value={date}
+        onChange={(e) => setDate(e.target.value)}
+        className="input-field"
+        required
+      />
       <select
         value={category}
         onChange={(e) => setCategory(e.target.value)}
@@ -60,13 +66,6 @@ const ExpenseForm = ({ setExpenses }) => {
           <option key={cat} value={cat}>{cat}</option>
         ))}
       </select>
-      <input
-        type="date"
-        value={date}
-        onChange={(e) => setDate(e.target.value)}
-        className="input-field"
-        required
-      />
       <button type="submit" className="submit-btn">
         Add Expense
       </button>

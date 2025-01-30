@@ -1,4 +1,3 @@
-// src/components/ExpenseList.js
 import { useState, useEffect } from "react";
 import FilterPanel from "./FilterPanel";
 import "../Styles/ExpenseList.css";

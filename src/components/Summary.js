@@ -1,4 +1,3 @@
-// src/components/Summary.js
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale, PointElement } from 'chart.js';
 import "../Styles/Summary.css";

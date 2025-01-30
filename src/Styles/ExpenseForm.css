@@ -1,4 +1,3 @@
-/* src/Styles/ExpenseForm.css */
 .expense-form {
   background: #fff;
   padding: 20px;
@@ -10,8 +9,8 @@
 
 .expense-form input,
 .expense-form select {
-  width: 100%;
-  max-width: 1500px;
+  max-width: 100%;
+  width: 1400px;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
@@ -24,7 +23,7 @@
   color: #ecae72;
   border: none;
   padding: 10px;
-  width: 100%;
+  width: 1400px;
   border-radius: 6px;
   font-size: 1rem;
   cursor: pointer;

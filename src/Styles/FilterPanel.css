@@ -1,8 +1,12 @@
-/* src/Styles/FilterPanel.css */
 .filter-panel {
-    background-color: #E3D0BE;
-    padding: 15px;
+    background-color: #aac5c2;
+    padding: 20px;
     border-radius: 5px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: auto;
   }
   
   .filter-panel select,
@@ -10,7 +14,7 @@
     width: 100%;
     padding: 8px;
     margin: 5px 0;
-    border: 1px solid #AD925B;
+    border: 1px solid #fbe7b2;
     border-radius: 4px;
   }
   
