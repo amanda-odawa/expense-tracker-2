@@ -1,1 +1,45 @@
 /* src/Styles/Summary.css */
+.summary-container {
+    background-color: #F8F1EB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .summary-container h2 {
+    color: #8F794B;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .summary-item {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 15px;
+    background: #E3D0BE;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-item span {
+    color: #D1495B;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .summary-container {
+      max-width: 90%;
+      padding: 15px;
+    }
+    
+    .summary-item {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  
