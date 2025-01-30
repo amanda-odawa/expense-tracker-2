@@ -1,25 +1,13 @@
-/* index.css */
-/* Global Styles */
-:root {
-  --black: #1D191A;
-  --white: #F8F1EB;
-  --gold: #C9A227;
-
-  --bg-color: var(--white);
-  --text-color: var(--black);
-}
-
+/* src/Styles/index.css */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: #f5f5f5;
+  color: #333;
   margin: 0;
   padding: 0;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Dark Mode */
-.dark-mode {
-  --bg-color: var(--black);
-  --text-color: var(--white);
+.App {
+  text-align: center;
+  padding: 20px;
 }

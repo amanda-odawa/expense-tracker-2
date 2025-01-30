@@ -28,7 +28,7 @@ const ExpenseChart = ({ expenses = [] }) => {
     const amounts = Object.values(categoryData);
 
     // Color palette (Dynamically assign colors)
-    const colors = ['#8F794B', '#AD925B', '#E3D0BE', '#F8F1EB', '#FFC857', '#D1495B', '#9B2915', '#3A506B'];
+    const colors = ['#F5CB5C', '#8ab0ab', '#E3D0BE', '#E39088', '#D0AEB3', '#ECAE72', '#COBE84'];
     const backgroundColors = categories.map((_, i) => colors[i % colors.length]); // Assigns colors dynamically
 
     setChartData({
@@ -47,8 +47,8 @@ const ExpenseChart = ({ expenses = [] }) => {
   }, [expenses]);
   
   return (
-    <div className="expense-chart-container">
-      <h2>Spending by Category</h2>
+    <div className="expense-chart">
+      <h2 className="expense-chart-title">Expense Overview</h2>
       <Pie data={chartData} />
     </div>
   );

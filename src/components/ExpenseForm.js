@@ -31,14 +31,14 @@ const ExpenseForm = ({ setExpenses }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md">
-      <h2 className="text-xl font-semibold mb-4">Add Expense</h2>
+    <form onSubmit={handleSubmit} className="expense-form">
+      <h2 className="expense-form-title">Add Expense</h2>
       <input
         type="text"
         placeholder="Title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        className="w-full p-2 border rounded mb-2"
+        className="input-field"
         required
       />
       <input
@@ -46,13 +46,13 @@ const ExpenseForm = ({ setExpenses }) => {
         placeholder="Amount"
         value={amount}
         onChange={(e) => setAmount(Number(e.target.value))}
-        className="w-full p-2 border rounded mb-2"
+        className="input-field"
         required
       />
       <select
         value={category}
         onChange={(e) => setCategory(e.target.value)}
-        className="w-full p-2 border rounded mb-2"
+        className="select-field"
         required
       >
         <option value="" disabled>Select Category</option>
@@ -64,10 +64,10 @@ const ExpenseForm = ({ setExpenses }) => {
         type="date"
         value={date}
         onChange={(e) => setDate(e.target.value)}
-        className="w-full p-2 border rounded mb-2"
+        className="input-field"
         required
       />
-      <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
+      <button type="submit" className="submit-btn">
         Add Expense
       </button>
     </form>

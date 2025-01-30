@@ -1,28 +1,21 @@
 /* Navbar.css */
+/* src/Styles/Navbar.css */
 .navbar {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: #132f3d;
+  color: #ecae72;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
   align-items: center;
 }
 
-.navbar h1 {
-  font-size: 1.5rem;
-  color: var(--gold);
+.navbar a {
+  color: #ecae72;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
 }
 
-.navbar .toggle-btn {
-  background: none;
-  border: 2px solid var(--gold);
-  color: var(--gold);
-  padding: 5px 10px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.navbar .toggle-btn:hover {
-  background: var(--gold);
-  color: var(--black);
+.navbar a:hover {
+  text-decoration: underline;
 }

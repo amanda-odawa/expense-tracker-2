@@ -1,31 +1,62 @@
-/* ExpenseList.css */
 .expense-list {
-  max-width: 600px;
-  margin: 20px auto;
-  background: var(--white);
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ justify-content: center;
 }
 
-.expense-item {
-  display: flex;
-  justify-content: space-between;
-  background: var(--gold);
-  color: var(--black);
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
+.expense-list-title {
+  color: #132f36;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.expense-item button {
-  background: var(--black);
-  color: var(--white);
+.expense-list-empty {
+  text-align: center;
+  color: #777;
+}
+
+.expense-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-list-table th,
+.expense-list-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-item:hover {
+  background: #f9f9f9;
+}
+
+.expense-item-amount {
+  color: #ff856a;
+  font-weight: bold;
+}
+
+.expense-item-category {
+  font-style: italic;
+}
+
+.expense-item-date {
+  color: #555;
+}
+
+.expense-item-delete {
+  background: #ff856a;
+  color: white;
   border: none;
   padding: 5px 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.expense-item button:hover {
-  background: #322c2e;
+.expense-item-delete:hover {
+  background: #e60000;
 }
