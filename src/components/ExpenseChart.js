@@ -49,13 +49,11 @@ const ExpenseChart = ({ expenses = [] }) => {
   
   return (
     <div className="expense-container">
-      <div className="expense-content">
-        <div className="expense-chart">
-          <h2 className="expense-chart-title">Expense Overview</h2>
-          <Pie data={chartData} />
-        </div>
-        <Summary expenses={expenses} />
+      <div className="expense-chart">
+        <h2>Expense Overview</h2>
+        <Pie data={chartData} />
       </div>
+      <Summary expenses={expenses} />
     </div>
   );
 };

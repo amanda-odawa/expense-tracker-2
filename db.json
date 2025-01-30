@@ -141,11 +141,215 @@
       "date": "2024-01-21"
     },
     {
-      "id": 1738256347237,
-      "title": "Hair maintenance",
-      "amount": 20,
+      "id": 21,
+      "title": "Water Bill",
+      "amount": 95.1,
+      "category": "Bills",
+      "date": "2024-12-18"
+    },
+    {
+      "id": 22,
+      "title": "Gas Bill",
+      "amount": 281.24,
+      "category": "Bills",
+      "date": "2024-05-23"
+    },
+    {
+      "id": 23,
+      "title": "Snacks",
+      "amount": 296.28,
+      "category": "Food",
+      "date": "2024-03-19"
+    },
+    {
+      "id": 24,
+      "title": "Gas Bill",
+      "amount": 50.75,
+      "category": "Bills",
+      "date": "2025-01-19"
+    },
+    {
+      "id": 25,
+      "title": "Movie Night",
+      "amount": 96.05,
+      "category": "Entertainment",
+      "date": "2024-03-17"
+    },
+    {
+      "id": 26,
+      "title": "Movie Night",
+      "amount": 189.94,
+      "category": "Entertainment",
+      "date": "2025-01-25"
+    },
+    {
+      "id": 27,
+      "title": "Gasoline",
+      "amount": 219.74,
+      "category": "Travel",
+      "date": "2024-04-04"
+    },
+    {
+      "id": 28,
+      "title": "Movie Night",
+      "amount": 209.71,
+      "category": "Entertainment",
+      "date": "2024-12-30"
+    },
+    {
+      "id": 29,
+      "title": "Dinner",
+      "amount": 13.75,
+      "category": "Food",
+      "date": "2024-11-08"
+    },
+    {
+      "id": 30,
+      "title": "Groceries",
+      "amount": 131.21,
+      "category": "Food",
+      "date": "2024-03-13"
+    },
+    {
+      "id": 31,
+      "title": "Electricity Bill",
+      "amount": 86.81,
+      "category": "Bills",
+      "date": "2024-04-03"
+    },
+    {
+      "id": 32,
+      "title": "Breakfast",
+      "amount": 236.17,
+      "category": "Food",
+      "date": "2024-04-07"
+    },
+    {
+      "id": 33,
+      "title": "Flight Ticket",
+      "amount": 88.5,
+      "category": "Travel",
+      "date": "2024-11-21"
+    },
+    {
+      "id": 34,
+      "title": "Gasoline",
+      "amount": 145.95,
+      "category": "Travel",
+      "date": "2024-03-25"
+    },
+    {
+      "id": 35,
+      "title": "Movie Night",
+      "amount": 281.77,
+      "category": "Entertainment",
+      "date": "2024-12-23"
+    },
+    {
+      "id": 36,
+      "title": "Train Ticket",
+      "amount": 292.87,
+      "category": "Travel",
+      "date": "2024-08-20"
+    },
+    {
+      "id": 37,
+      "title": "Lunch",
+      "amount": 71.15,
+      "category": "Food",
+      "date": "2024-02-20"
+    },
+    {
+      "id": 38,
+      "title": "Train Ticket",
+      "amount": 255.73,
+      "category": "Travel",
+      "date": "2024-10-16"
+    },
+    {
+      "id": 39,
+      "title": "Theater Play",
+      "amount": 226.99,
+      "category": "Entertainment",
+      "date": "2024-09-27"
+    },
+    {
+      "id": 40,
+      "title": "Birthday Gift",
+      "amount": 141.97,
       "category": "Miscellaneous",
-      "date": "2025-01-13"
+      "date": "2024-05-10"
+    },
+    {
+      "id": 41,
+      "title": "Movie Night",
+      "amount": 289.63,
+      "category": "Entertainment",
+      "date": "2024-02-28"
+    },
+    {
+      "id": 42,
+      "title": "Gym Membership",
+      "amount": 217.85,
+      "category": "Miscellaneous",
+      "date": "2025-01-29"
+    },
+    {
+      "id": 43,
+      "title": "Flight Ticket",
+      "amount": 231.53,
+      "category": "Travel",
+      "date": "2024-12-21"
+    },
+    {
+      "id": 44,
+      "title": "Gas Bill",
+      "amount": 134.2,
+      "category": "Bills",
+      "date": "2024-02-20"
+    },
+    {
+      "id": 45,
+      "title": "Taxi Ride",
+      "amount": 30.06,
+      "category": "Travel",
+      "date": "2024-06-04"
+    },
+    {
+      "id": 46,
+      "title": "Lunch",
+      "amount": 228.7,
+      "category": "Food",
+      "date": "2024-05-09"
+    },
+    {
+      "id": 47,
+      "title": "Snacks",
+      "amount": 101.3,
+      "category": "Food",
+      "date": "2024-05-29"
+    },
+    {
+      "id": 48,
+      "title": "Coffee",
+      "amount": 186.34,
+      "category": "Food",
+      "date": "2024-03-30"
+    },
+    {
+      "id": 49,
+      "title": "Movie Night",
+      "amount": 73.95,
+      "category": "Entertainment",
+      "date": "2024-04-18"
+    },
+    {
+      "id": 50,
+      "title": "Stationery",
+      "amount": 235.38,
+      "category": "Miscellaneous",
+      "date": "2024-04-11"
     }
+    
   ]
 }

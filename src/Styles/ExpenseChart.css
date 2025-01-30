@@ -1,33 +1,28 @@
 /* src/Styles/ExpenseChart.css */
 .expense-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  width: 100%;
-  max-width: 900px;
-  margin: 40px auto;
-  background-color: #f8f1eb; /* Shared background */
-  padding: 30px;
+  gap:20px;
+  width: auto;
+  margin-top: 20px ;
+  background-color: #f3f6f6;
+  padding: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
   border-radius: 16px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-
-.expense-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  gap: 40px;
 }
 
 .expense-chart {
   background-color: #fff;
   padding: 20px;
+  margin-left: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   flex: 1;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .expense-chart-title {
