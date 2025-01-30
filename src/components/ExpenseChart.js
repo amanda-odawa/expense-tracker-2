@@ -29,7 +29,7 @@ const ExpenseChart = ({ expenses = [] }) => {
 
     // Color palette (Dynamically assign colors)
     const colors = ['#F5CB5C', '#8ab0ab', '#E3D0BE', '#E39088', '#D0AEB3', '#ECAE72', '#COBE84'];
-    const backgroundColors = categories.map((_, i) => colors[i % colors.length]); // Assigns colors dynamically
+    const backgroundColors = categories.map((_, i) => colors[i % colors.length]); 
 
     setChartData({
       labels: categories,

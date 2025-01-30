@@ -1,12 +1,13 @@
 /* Navbar.css */
 /* src/Styles/Navbar.css */
 .navbar {
-  background-color: #132f3d;
+  background-color: #1b4749;
   color: #ecae72;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
   align-items: center;
+  z-index: 0;
 }
 
 .navbar a {
