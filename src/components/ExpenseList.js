@@ -58,7 +58,7 @@ const ExpenseList = ({ expenses = [], setExpenses }) => {
             {filteredExpenses.map((expense) => (
               <tr className="expense-item" key={expense.id}>
                 <td className="expense-item-title">{expense.title}</td>
-                <td className="expense-item-amount">${expense.amount}</td>
+                <td className="expense-item-amount">Ksh.{expense.amount}</td>
                 <td className="expense-item-category">{expense.category}</td>
                 <td className="expense-item-date">{expense.date}</td>
                 <td>

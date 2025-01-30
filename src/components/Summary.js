@@ -38,7 +38,7 @@ const Summary = ({ expenses }) => {
       borderColor: "#1DA91A",
       backgroundColor: "rgba(29, 169, 26, 0.2)",
       fill: true,
-      pointRadius: 2,
+      pointRadius: 4,
       pointBackgroundColor: "#1DA91A",
     }]
   };
@@ -51,9 +51,9 @@ const Summary = ({ expenses }) => {
       </div>
 
       <h3>Summary</h3>
-      <p>Total Spending: ${totalSpending.toFixed(2)}</p>
-      <p>Highest Expense: {highestExpense.title} (${highestExpense.amount})</p>
-      <p>Lowest Expense: {lowestExpense.title} (${lowestExpense.amount})</p>    
+      <p>Total Spending: Ksh.{totalSpending.toFixed(2)}</p>
+      <p>Highest Expense: {highestExpense.title} (Ksh.{highestExpense.amount})</p>
+      <p>Lowest Expense: {lowestExpense.title} (Ksh.{lowestExpense.amount})</p>    
     </div>
   );
 };
