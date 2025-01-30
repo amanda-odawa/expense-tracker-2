@@ -1,7 +1,7 @@
 .expense-list {
   margin-top: 20px;
   padding: 20px;
-  background: #fff;
+  background: #f3f6f6;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
  justify-content: center;
@@ -58,5 +58,5 @@
 }
 
 .expense-item-delete:hover {
-  background: #e60000;
+  background: #ff542e;
 }

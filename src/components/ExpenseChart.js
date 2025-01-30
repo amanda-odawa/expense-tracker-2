@@ -2,6 +2,7 @@
 import { Pie } from 'react-chartjs-2';
 import { useState, useEffect } from 'react';
 import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
+import Summary from "./Summary";
 import "../Styles/ExpenseChart.css";
 
 // Registering necessary chart.js components
@@ -47,9 +48,14 @@ const ExpenseChart = ({ expenses = [] }) => {
   }, [expenses]);
   
   return (
-    <div className="expense-chart">
-      <h2 className="expense-chart-title">Expense Overview</h2>
-      <Pie data={chartData} />
+    <div className="expense-container">
+      <div className="expense-content">
+        <div className="expense-chart">
+          <h2 className="expense-chart-title">Expense Overview</h2>
+          <Pie data={chartData} />
+        </div>
+        <Summary expenses={expenses} />
+      </div>
     </div>
   );
 };

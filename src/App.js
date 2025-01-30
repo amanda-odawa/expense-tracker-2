@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import ExpenseForm from "./components/ExpenseForm";
 import ExpenseList from "./components/ExpenseList";
 import ExpenseChart from "./components/ExpenseChart";
-import Dashboard from "./components/Dashboard";
 import "./index.css";
 
 const App = () => {
@@ -22,7 +21,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard expenses={expenses} />} />
+        <Route path="/" element={<ExpenseList expenses={expenses} />} />
         <Route path="/expenses" element={<ExpenseList expenses={expenses} setExpenses={setExpenses} />} />
         <Route path="/add-expense" element={<ExpenseForm setExpenses={setExpenses} />} />
         <Route path="/charts" element={<ExpenseChart expenses={expenses} />} />

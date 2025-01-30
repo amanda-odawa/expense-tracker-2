@@ -4,17 +4,18 @@
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
   max-width: 400px;
-  margin: 20px auto;
   text-align: center;
 }
 
 .summary p {
   font-size: 1rem;
   color: #333;
+  margin: 10px 0;
 }
 
-.summary h2 {
+.summary h3 {
   color: #1b4749;
   font-size: 1.5rem;
 }

@@ -47,7 +47,7 @@ const ExpenseList = ({ expenses = [], setExpenses }) => {
         <table className="expense-list-table">
           <thead>
             <tr>
-              <th>Expense Nmae</th>
+              <th>Title</th>
               <th>Amount</th>
               <th>Category</th>
               <th>Date</th>

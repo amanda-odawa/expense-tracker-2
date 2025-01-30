@@ -11,7 +11,7 @@ import "./Styles/ExpenseList.css";
 import "./Styles/FilterPanel.css";
 import "./Styles/Navbar.css";
 import "./Styles/Summary.css";
-import "./Styles/Dashboard.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
