@@ -38,7 +38,7 @@ const ExpenseList = ({ expenses = [], setExpenses }) => {
 
   return (
     <div className="expense-list">
-      <h2 className="expense-list-title">Expense List</h2>
+      <h2 className="expense-list-title">My Expenses</h2>
       <FilterPanel onFilter={handleFilter} />
       {filteredExpenses.length === 0 ? (
         <p className="expense-list-empty">No expenses found.</p>
