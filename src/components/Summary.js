@@ -34,11 +34,11 @@ const Summary = ({ expenses }) => {
     datasets: [{
       label: "Total Spending",
       data: sortedMonths.map(month => monthlyTotals[month]),
-      borderColor: "#1DA91A",
-      backgroundColor: "rgba(29, 169, 26, 0.2)",
+      borderColor: "#ecae72",
+      backgroundColor: "#f8d9a2",
       fill: true,
-      pointRadius: 4,
-      pointBackgroundColor: "#1DA91A",
+      pointRadius: 5,
+      pointBackgroundColor: "#ecae72",
     }]
   };
 
@@ -48,7 +48,6 @@ const Summary = ({ expenses }) => {
         <h4>Monthly Spending Trend</h4>
         <Line data={chartData} />
       </div>
-
       <h3>Summary</h3>
       <p>Total Spending: Ksh.{totalSpending.toFixed(2)}</p>
       <p>Highest Expense: {highestExpense.title} (Ksh.{highestExpense.amount})</p>

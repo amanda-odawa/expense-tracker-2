@@ -1,15 +1,16 @@
 .navbar {
   background-color: #1b4749;
-  color: #ecae72;
+  color: #f3a659;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
   align-items: center;
   z-index: 0;
+  border-radius: 10px;
 }
 
 .navbar a {
-  color: #ecae72;
+  color: #f3a659;
   text-decoration: none;
   margin: 0 10px;
   font-size: 1rem;
